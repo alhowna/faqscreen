@@ -11,7 +11,8 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      home: const FAQScreen(),
+      debugShowCheckedModeBanner: false,
+      home: const FaqPage(),
     );
   }
 }
